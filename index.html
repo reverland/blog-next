@@ -6,6 +6,7 @@
   </head>
   <body>
     <div id="app">
+      <div v-show="$loadingRouteData" class="loading">Loading...</div>
       <router-view></router-view>
     </div>
     <!-- built files will be auto injected -->
