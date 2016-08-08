@@ -7,7 +7,7 @@
       </div>
       <div class="ui centered card">
         <div class="image">
-          <img src="https://avatars3.githubusercontent.com/u/1418726?v=3&s=460">
+          <img :src="'http://lorempixel.com/400/200?' + Math.random()">
         </div>
         <div class="content">
           <a class="header">Reverland</a>
