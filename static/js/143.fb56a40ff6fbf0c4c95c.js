@@ -1,2 +1,0 @@
-webpackJsonp([143,170],{203:function(n,e){n.exports="\n\n## racket\n\n这几天试了试racket\n\n相当漂亮，[racket][1]是以前的PLT Scheme。是著名的scheme实现之一。\n\ndrracket是racket图形环境。很漂亮，很图形化，功能很全面。采用分级教学，不同级别时返回不同错误信息，对初学者极度友好。非常适合配合[How to Design Programs][2]学习scheme。\n\n[1]: http://racket-lang.org/\n[2]: http://www.htdp.org/\n"}});
-//# sourceMappingURL=143.fb56a40ff6fbf0c4c95c.js.map
