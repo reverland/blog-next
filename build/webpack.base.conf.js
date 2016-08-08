@@ -43,7 +43,7 @@ module.exports = {
     loaders: [
       {
         test: /\.md$/,
-        loader: 'bundle-loader!raw-loader!../../loader/post-loader.js'
+        loader: 'bundle-loader!json-loader!../../loader/post-loader.js'
       },
       {
         test: /\.vue$/,

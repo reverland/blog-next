@@ -1,9 +1,19 @@
 <template>
-  <div id="app">
-    <div class="logo">Reverland's Playground</div>
-    <div class="subLogo">// console.log(/all gone/)</div>
+  <div id="app" class="ui container">
+    <div class="ui large secondary teal pointing menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      <a class="active item">Home</a>
+      <a class="item">Archives</a>
+      <a class="item">Categories</a>
+      <a class="item">Tags</a>
+      <div class="right item">
+        <a class="ui inverted button">RSS</a>
+      </div>
+    </div>
     <router-view></router-view>
-    <p>
+    <p class="">
       @copyright 2011-2016 | reverland built with [vue] and [webpack]
     </p>
   </div>
@@ -14,14 +24,23 @@ export default {
 }
 </script>
 
-<style>
-.logo {
-  color: steelblue;
-  font-size: 2rem;
+<style lang="less">
+@import './semantic-ui/semantic.less';
+
+.secondary.pointing.menu .toc.item {
+  display: none;
 }
-.subLogo {
-  color: lightgray;
-  padding-left: 4em;
-  font-size: 1.3rem;
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
 }
 </style>

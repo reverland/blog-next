@@ -1,22 +1,44 @@
 <template>
   <div class="postsList">
-    <ul>
-      <li v-for="post in posts">
-        <a v-link="{
+    <h1 class="ui teal huge header">Reverland's Playground</h1>
+    <h2 class="ui grey small header right">// console.log(/all gone/)</h2>
+    <div class="ui cards">
+      <div class="ui card" v-for="post in posts">
+        <a class="ui image" v-link="{
           path: '/' + post.category + '/' + post.year + '/' + post.month + '/' + post.day + '/' + (post._title ? post._title + '/' : '')
         }">
-          {{post.title}}
+          <img :src="'http://lorempixel.com/400/200?' + Math.random()">
         </a>
-         | 
-        <span>
-          {{ post.year }}-{{ post.month }}-{{ post.day }}
-        </span>
-      </li> 
-    </ul>
+        <div class="content">
+          <a class="header" v-link="{
+            path: '/' + post.category + '/' + post.year + '/' + post.month + '/' + post.day + '/' + (post._title ? post._title + '/' : '')
+          }">
+            {{post.title}}
+          </a>
+          <div class="meta">
+            <span>
+              {{ post.year }}-{{ post.month }}-{{ post.day }}
+            </span>
+          </div>
+          <div class="meta">
+            <span>
+              {{ post.excerpt }}
+            </span>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="ui center aligned segments">
+    <button class="ui huge primary button" @click="more">
+      <i class="angle double down icon"></i>
+      更多
+    </button>
+    </div>
   </div>
 </template>
 
 <script>
+let posts = []
 export default {
   data () {
     return {
@@ -24,12 +46,25 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      posts: []
+      posts: [],
+      curIndex: 0,
+      itemPerShow: 9
+    }
+  },
+  methods: {
+    more () {
+      this.curIndex += this.itemPerShow
+      if (this.curIndex >= posts.length) {
+        this.more = false
+        return
+      }
+      this.posts = this.posts.concat(posts.slice(this.curIndex, this.curIndex + this.itemPerShow))
     }
   },
   ready () {
     require.ensure('../posts/meta.json', (require) => {
-      this.posts = require('../posts/meta.json')
+      posts = require('../posts/meta.json')
+      this.posts = posts.slice(0, this.itemPerShow)
     })
   }
 }
@@ -37,4 +72,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul, li {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 0;
+}
 </style>

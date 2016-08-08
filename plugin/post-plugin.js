@@ -4,7 +4,6 @@ var fs = require('fs')
 var yaml = require('js-yaml')
 
 // PostPlugin.js
-var reg = new RegExp('^(---\n)?([^#]+)---\n', 'm')
 var reg = /^(-{3,}|;{3,})\n([\s\S]+?)\n\1(?:$|\n([\s\S]*)$)/
 
 function PostPlugin(options) {

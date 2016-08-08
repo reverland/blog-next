@@ -1,6 +1,13 @@
 <template>
   <div class="posts">
-    {{{ content }}}
+    <div v-if="!$loadingRouteData" class="heading">
+      <h1>{{ title }}</h1>
+      <div class="small">发表于:{{year}}-{{month}}-{{day}}</div>
+    </div>
+    <div v-if="!$loadingRouteData" class="contents">
+      {{{ content }}}
+    </div>
+    <div v-if="$loadingRouteData">Loading...</div>
   </div>
 </template>
 
@@ -21,7 +28,11 @@ marked.setOptions({
 export default {
   data () {
     return {
-      content: '<h1>loading...</h1>'
+      content: '<h1>loading...</h1>',
+      year: '',
+      month: '',
+      day: '',
+      title: ''
     }
   },
   route: {
@@ -31,8 +42,14 @@ export default {
       let day = transition.to.params.day
       let title = transition.to.params.title
       let fileName = `${year}-${month}-${day}-` + (title ? String(title) : '')
-      require('../posts/' + fileName + '.md')((content) => {
-        this.content = marked(content)
+      require('../posts/' + fileName + '.md')((exports) => {
+        transition.next({
+          content: marked(exports.rawContent),
+          year: year,
+          month: month,
+          day: day,
+          title: exports.metaData.title
+        })
       })
     }
   }

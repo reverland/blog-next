@@ -1,9 +1,21 @@
+var reg = /^(-{3,}|;{3,})\n([\s\S]+?)\n\1(?:$|\n([\s\S]*)$)/
+var yaml = require('js-yaml')
+
 module.exports = function (content) {
-  var SPLIT = content.indexOf('---\n')
-  if (SPLIT === 0) {
-    content = content.slice(4)
-    SPLIT = content.indexOf('---\n', 4)
+  var match = reg.exec(content)
+  var metaData
+  if (!match) {
+    throw new Error('post not valid')
   }
-  content = content.slice(SPLIT + 4)
-  return content
+  var rawMeta = match[2]
+  var rawContent = match[3]
+  try {
+    metaData = yaml.load(rawMeta)
+  } catch (e) {
+    throw new Error(rawMeta)
+  }
+  return JSON.stringify({
+    rawContent: rawContent,
+    metaData: metaData
+  })
 }
