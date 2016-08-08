@@ -1,13 +1,17 @@
 <template>
-  <div class="posts">
-    <div v-if="!$loadingRouteData" class="heading">
+  <div class="posts ui raised segments">
+    <template v-if="!$loadingRouteData">
+    <div class="ui ribbon label">
       <h1>{{ title }}</h1>
-      <div class="small">发表于:{{year}}-{{month}}-{{day}}</div>
+      <div class="small"><i class="history icon"></i>{{year}}-{{month}}-{{day}}</div>
     </div>
-    <div v-if="!$loadingRouteData" class="contents">
+    <div class="ui segment">
       {{{ content }}}
     </div>
-    <div v-if="$loadingRouteData">Loading...</div>
+    </template>
+    <div v-if="$loadingRouteData" class="load ui segment">
+      <div class="ui active loader"></div>
+    </div>
   </div>
 </template>
 
@@ -58,4 +62,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.load.segment {
+  padding: 3em 0;
+}
 </style>

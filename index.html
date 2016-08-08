@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>blog</title>
+    <title>Reverland's Playground</title>
   </head>
-  <body>
-    <div id="app">
-      <div v-show="$loadingRouteData" class="loading">Loading...</div>
-      <router-view></router-view>
+  <body id="app">
+    <div v-show="$loadingRouteData" class="ui active dimmer">
+      <div class="ui active loader"></div>
     </div>
+    <router-view></router-view>
     <!-- built files will be auto injected -->
   </body>
 </html>

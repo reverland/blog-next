@@ -1,21 +1,23 @@
 <template>
   <div id="app" class="ui container">
     <div class="ui large secondary teal pointing menu">
-      <a class="toc item">
-        <i class="sidebar icon"></i>
-      </a>
-      <a class="active item">Home</a>
-      <a class="item">Archives</a>
-      <a class="item">Categories</a>
-      <a class="item">Tags</a>
+      <a class="item" v-link="{path: '/home'}">Home</a>
+      <a class="item" v-link="{path: '/archives'}">Archives</a>
+      <a class="item" v-link="{path: '/categories'}">Categories</a>
+      <a class="item" v-link="{path: '/tags'}">Tags</a>
       <div class="right item">
         <a class="ui inverted button">RSS</a>
       </div>
     </div>
     <router-view></router-view>
-    <p class="">
-      @copyright 2011-2016 | reverland built with [vue] and [webpack]
-    </p>
+    <div class="ui center aligned container">
+      <div class="ui segment">
+        <p>
+          copyleft＠2011-2016
+        </p>
+        <p>reverland built with <a href="https://vuejs.org">vue</a> and <a href="http://webpack.github.io/">webpack</a></p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -25,22 +27,9 @@ export default {
 </script>
 
 <style lang="less">
+@charset 'utf-8';
 @import './semantic-ui/semantic.less';
-
-.secondary.pointing.menu .toc.item {
-  display: none;
-}
-
-@media only screen and (max-width: 700px) {
-  .ui.fixed.menu {
-    display: none !important;
-  }
-  .secondary.pointing.menu .item,
-  .secondary.pointing.menu .menu {
-    display: none;
-  }
-  .secondary.pointing.menu .toc.item {
-    display: block;
-  }
+.ui.center.aligned.container {
+  margin-top: 1rem;
 }
 </style>

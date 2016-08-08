@@ -1,8 +1,7 @@
 <template>
   <div class="postsList">
-    <template v-if="!$loadingRouteData">
     <h1 class="ui teal huge header">Reverland's Playground</h1>
-    <h2 class="ui grey small header">// console.log(/all gone/)</h2>
+    <h2 class="ui grey small header right">// console.log(/all gone/)</h2>
     <div class="ui cards">
       <div class="ui card" v-for="post in posts">
         <!--a class="ui image" v-link="{
@@ -38,14 +37,11 @@
         </div>
       </div> 
     </div>
-    </template>
-    <div class="ui segment">
-      <div class="ui active loader"></div>
-    </div>
   </div>
 </template>
 
 <script>
+let posts = []
 export default {
   data () {
     return {
@@ -58,25 +54,17 @@ export default {
   },
   methods: {
   },
-  route: {
-    data (transition) {
-      require.ensure('../posts/meta.json', (require) => {
-        let posts = require('../posts/meta.json')
-        transition.next({
-          posts
-        })
-      })
-    }
+  ready () {
+    require.ensure('../posts/meta.json', (require) => {
+      posts = require('../posts/meta.json')
+      this.posts = posts
+    })
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.ui.segment {
-  padding: 3em 0;
-}
-
 ul, li {
   font-size: 1rem;
 }
