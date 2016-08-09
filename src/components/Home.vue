@@ -12,10 +12,10 @@
         <div class="content">
           <a class="header">Reverland</a>
           <div class="meta">
-            <span class="date">&lt;Writing from 2012&gt;</span>
+            <span class="date">Blog since 2012</span>
           </div>
           <div class="description">
-            Reverland is the web front-end developer working for
+            Reverland is a web front-end developer working for
             <a href="https://chaitin.cn">Chaitin.Inc</a>
           </div>
         </div>
@@ -44,9 +44,6 @@ export default {
   methods: {
   },
   ready () {
-    require.ensure('../posts/meta.json', (require) => {
-      this.posts = require('../posts/meta.json')
-    })
   }
 }
 </script>

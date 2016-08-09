@@ -5,13 +5,14 @@
     <h2 class="ui grey small header">// console.log(/all gone/)</h2>
 
     <div class="ui segment">
-    <a class="ui label" v-for="keyvalue of archive" @click="scrollIntoView(keyvalue[0])">{{ keyvalue[0] }} </a>
+      <a class="ui label" 
+        v-for="keyvalue of archives" 
+        :class="{'teal': keyvalue[0] == yearSelected}"
+        @click="select(keyvalue[0])">{{ keyvalue[0] }} <span class="detail">{{ keyvalue[1].length }}</span></a>
     </div>
 
-    <template v-for="keyvalue of archive">
-    <h3 class="ui cyan year header" :id="keyvalue[0]">{{ keyvalue[0] }}</h3>
     <div class="ui cards">
-      <div class="ui card" v-for="post in keyvalue[1]">
+      <div class="ui card" v-for="post in yearArchive">
         <!--a class="ui image" v-link="{
           path: '/' + post.category + '/' + post.year + '/' + post.month + '/' + post.day + '/' + (post._title ? post._title + '/' : '')
         }">
@@ -28,7 +29,7 @@
               {{ post.year }}-{{ post.month }}-{{ post.day }}
             </span>
             <i class="heartbeat icon"></i>
-            <a>
+            <a v-link="{path: '/categories', query: { category: post.category } }">
               {{ post.category }}
             </a>
           </div>
@@ -39,13 +40,12 @@
           </div>
         </div>
         <div class="extra content">
-          <a v-for="tag in post.tags" class="ui tag label">
+          <a v-for="tag in post.tags" class="ui tag label" v-link="{path: '/tags', query: { tag: tag } }">
             {{ tag }}
           </a>
         </div>
       </div> 
     </div>
-    </template>
     </template>
     <div v-if="$loadingRouteData" class="ui myloading segment">
       <div class="ui active loader"></div>
@@ -54,17 +54,17 @@
 </template>
 
 <script>
-function extractArchive (posts) {
-  let archive = {}
+function extractArchives (posts) {
+  let archives = {}
   for (let post of posts) {
-    if (!(post.year in archive)) {
-      archive[post.year] = []
+    if (!(post.year in archives)) {
+      archives[post.year] = []
     }
-    archive[post.year].push(post)
+    archives[post.year].push(post)
   }
   let ret = []
-  for (let year in archive) {
-    ret.push([year, archive[year]])
+  for (let year in archives) {
+    ret.push([year, archives[year]])
   }
   ret.sort((a, b) => parseInt(b[0]) > parseInt(a[0]) ? 1 : -1)
   return ret
@@ -77,22 +77,42 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      archive: []
+      archives: [],
+      yearSelected: ''
     }
   },
   methods: {
-    scrollIntoView (year) {
-      let target = document.getElementById(year)
-      window.scrollTo(0, target.offsetTop - 30)
+    select (year) {
+      this.$router.go({
+        path: '/archives',
+        query: {
+          year
+        }
+      })
+    }
+  },
+  computed: {
+    yearArchive () {
+      let archive = this.archives.find((keyvalue) => keyvalue[0] === this.yearSelected)
+      if (archive) {
+        return archive[1]
+      } else {
+        return []
+      }
     }
   },
   route: {
     data (transition) {
+      let year = transition.to.query.year
       require.ensure('../posts/meta.json', (require) => {
         let posts = require('../posts/meta.json')
-        let archive = extractArchive(posts)
+        let archives = extractArchives(posts)
+        if (!year) {
+          year = archives[0][0]
+        }
         transition.next({
-          archive
+          archives,
+          yearSelected: year
         })
       })
     }

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from './App'
-import PostList from './components/PostList'
+import Archives from './components/Archives'
 import Post from './components/Post'
 import Home from './components/Home'
 import Categories from './components/Categories'
@@ -30,7 +30,7 @@ router.map({
         component: Tags
       },
       '/archives': {
-        component: PostList
+        component: Archives
       },
       '/:category/:year/:month/:day/:title/': {
         component: Post
