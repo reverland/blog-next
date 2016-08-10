@@ -13,13 +13,11 @@
       </div>
     </div>
     <router-view></router-view>
-    <div class="ui center aligned container">
-      <div class="ui segment">
-        <p>
-          copyleft＠2011-2016
-        </p>
-        <p>reverland built with <a href="https://vuejs.org">vue</a> and <a href="http://webpack.github.io/">webpack</a></p>
-      </div>
+    <div class="ui center aligned segment">
+      <p>
+        copyleft＠2011-2016
+      </p>
+      <p>reverland built with <a href="https://vuejs.org">vue</a> and <a href="http://webpack.github.io/">webpack</a></p>
     </div>
   </div>
 </template>
