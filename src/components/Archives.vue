@@ -4,7 +4,7 @@
     <h1 class="ui teal huge header">Reverland's Playground</h1>
     <h2 class="ui grey small header">// console.log(/all gone/)</h2>
 
-    <div class="ui segment">
+    <div class="ui labels">
       <a class="ui label" 
         v-for="keyvalue of archives" 
         :class="{'teal': keyvalue[0] == yearSelected}"

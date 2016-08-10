@@ -8,7 +8,7 @@
       <a class="ui label" 
         v-for="(category, posts) of categories" 
         :class="{'teal': category == categorySelected}"
-        @click="select(category)">{{ category }} <span class="ui detail">{{ posts.length }}</span></a>
+        @click="select(category)">{{ category }} <span class="detail">{{ posts.length }}</span></a>
     </div>
 
     <div class="ui cards">
