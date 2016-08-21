@@ -4,7 +4,7 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-08-21T10:59:48.812Z</updated>
+  <updated>2016-08-21T11:01:51.508Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
@@ -23,9 +23,9 @@
           2015年总结和2016年展望
         
       </summary>
-      <category term="life" scheme="http://blog-next.reverland.org/life"/>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
       
-        <category term="life" scheme="http://blog-next.reverland.org/life"/>
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
       
     </entry>
   
@@ -40,13 +40,13 @@
           一篇有关NodeJS中流的概念的详细参考，历史、设计、应用等
         
       </summary>
-      <category term="javascript" scheme="http://blog-next.reverland.org/javascript"/>
+      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
       
-        <category term="javascript" scheme="http://blog-next.reverland.org/javascript"/>
+        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
       
-        <category term="stream" scheme="http://blog-next.reverland.org/stream"/>
+        <category term="stream" scheme="http://blog-next.reverland.org/tags?tag=stream"/>
       
-        <category term="nodejs" scheme="http://blog-next.reverland.org/nodejs"/>
+        <category term="nodejs" scheme="http://blog-next.reverland.org/tags?tag=nodejs"/>
       
     </entry>
   
@@ -61,9 +61,9 @@
           萌
         
       </summary>
-      <category term="reviews" scheme="http://blog-next.reverland.org/reviews"/>
+      <category term="reviews" scheme="http://blog-next.reverland.org/categories?category=reviews"/>
       
-        <category term="people" scheme="http://blog-next.reverland.org/people"/>
+        <category term="people" scheme="http://blog-next.reverland.org/tags?tag=people"/>
       
     </entry>
   
@@ -78,9 +78,9 @@
           一篇随笔
         
       </summary>
-      <category term="life" scheme="http://blog-next.reverland.org/life"/>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
       
-        <category term="life" scheme="http://blog-next.reverland.org/life"/>
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
       
     </entry>
   
@@ -95,11 +95,11 @@
           LaTeX完成北邮研究生毕业论文指南
         
       </summary>
-      <category term="linux" scheme="http://blog-next.reverland.org/linux"/>
+      <category term="linux" scheme="http://blog-next.reverland.org/categories?category=linux"/>
       
-        <category term="linux" scheme="http://blog-next.reverland.org/linux"/>
+        <category term="linux" scheme="http://blog-next.reverland.org/tags?tag=linux"/>
       
-        <category term="tex" scheme="http://blog-next.reverland.org/tex"/>
+        <category term="tex" scheme="http://blog-next.reverland.org/tags?tag=tex"/>
       
     </entry>
   
