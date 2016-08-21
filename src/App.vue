@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="ui container">
+  <div class="ui container">
     <div class="ui large secondary teal pointing menu" :class="{'stackable': show}">
       <a class="toc item">
         <i class="sidebar icon" @click="toggle"></i>
@@ -8,9 +8,6 @@
       <a class="item" v-link="{path: '/archives'}">Archives</a>
       <a class="item" v-link="{path: '/categories'}">Categories</a>
       <a class="item" v-link="{path: '/tags'}">Tags</a>
-      <div class="right item">
-        <a class="ui inverted button">RSS</a>
-      </div>
     </div>
     <router-view></router-view>
     <div class="ui center aligned segment">
@@ -38,7 +35,6 @@ export default {
 </script>
 
 <style lang="less">
-@charset 'utf-8';
 @import './semantic-ui/semantic.less';
 .ui.center.aligned.container {
   margin-top: 1rem;

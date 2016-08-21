@@ -4,6 +4,7 @@ require('shelljs/global')
 env.NODE_ENV = 'production'
 
 var path = require('path')
+var fs = require('fs')
 var config = require('../config')
 var ora = require('ora')
 var webpack = require('webpack')
@@ -33,4 +34,5 @@ webpack(webpackConfig, function (err, stats) {
     chunks: false,
     chunkModules: false
   }) + '\n')
+  fs.writeFileSync('stats.json', JSON.stringify(stats.toJson()))
 })

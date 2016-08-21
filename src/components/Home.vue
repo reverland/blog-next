@@ -7,7 +7,7 @@
       </div>
       <div class="ui centered card">
         <div class="image">
-          <img :src="'http://lorempixel.com/400/200?' + Math.random()">
+          <img :src="'https://unsplash.it/320/240?random&' + Math.random()">
         </div>
         <div class="content">
           <a class="header">Reverland</a>
@@ -56,5 +56,9 @@ export default {
 }
 .ui.piled.segments {
   padding-bottom: 4em;
+}
+
+img {
+  min-height: 290px;
 }
 </style>

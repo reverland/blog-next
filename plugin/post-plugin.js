@@ -11,7 +11,7 @@ function PostPlugin(options) {
 }
 
 PostPlugin.prototype.apply = function(compiler) {
-  compiler.plugin("environment", function() {
+  compiler.plugin("entry-option", function() {
     generateMetaData()
   });
 };

@@ -86,7 +86,6 @@ module.exports = {
   },
   vue: {
     loaders: utils.cssLoaders(),
-    postcss: [require('autoprefixer'), require('cssnano')]
   },
   plugins: [
     new PostPlugin()

@@ -110,16 +110,4 @@ export default {
 .ui.segment.myloading {
   padding: 3em 0;
 }
-
-ul, li {
-  font-size: 1rem;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  margin-left: 0;
-}
 </style>

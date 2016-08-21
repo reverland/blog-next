@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Reverland的行知阁</title>
+  <subtitle>柔以自坚，晦以自明</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://blog-next.reverland.org"/>
+  <updated><%= new Date().toISOString() %></updated>
+  <id>http://blog-next.reverland.org</id>
+  <author>
+    <name>Liu Yuyang</name>
+    <email>sa@linuxer.me</email>
+  </author>
+  <generator uri="http://blog-next.reverland.org">blog-next</generator>
+  <% compilation.feed.forEach(function(post){ %>
+    <entry>
+      <title><%= post.title %></title>
+      <link href="<%= 'http://blog-next.reverland.org/' + post.path %>"/>
+      <id><%= 'http://blog-next.reverland.org/' + post.path %></id>
+      <published><%= post.date.toISOString() %></published>
+      <updated><%= post.updated.toISOString() %></updated>
+      <summary type="html">
+        <% if (post.description) { %>
+          <%= post.description %>
+        <% } else if (post.excerpt) { %>
+          <%= post.excerpt %>
+        <% } else if (post.content) { %>
+          <%= post.content %>
+        <% } else { %>
+          无摘要
+        <% } %>
+      </summary>
+      <category term="<%= post.category %>" scheme="<%= 'http://blog-next.reverland.org' + post.category %>"/>
+      <% post.tags.forEach(function (tag) { %>
+        <category term="<%= tag.name %>" scheme="<%= 'http://blog-next.reverland.org' + tag.path %>"/>
+      <% }) %>
+    </entry>
+  <% }) %>
+</feed>
