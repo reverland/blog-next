@@ -8,6 +8,7 @@
       <a class="item" v-link="{path: '/archives'}">Archives</a>
       <a class="item" v-link="{path: '/categories'}">Categories</a>
       <a class="item" v-link="{path: '/tags'}">Tags</a>
+      <a class="item" href="/atom.xml">RSS</a>
     </div>
     <router-view></router-view>
     <div class="ui center aligned segment">

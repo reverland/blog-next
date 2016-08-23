@@ -29,9 +29,9 @@
           无摘要
         <% } %>
       </summary>
-      <category term="<%= post.category %>" scheme="<%= 'http://blog-next.reverland.org' + post.category %>"/>
+      <category term="<%= post.category %>" scheme="<%= 'http://blog-next.reverland.org/categories?category=' + post.category %>"/>
       <% post.tags.forEach(function (tag) { %>
-        <category term="<%= tag.name %>" scheme="<%= 'http://blog-next.reverland.org' + tag.path %>"/>
+        <category term="<%= tag %>" scheme="<%= 'http://blog-next.reverland.org/tags?tag=' + tag %>"/>
       <% }) %>
     </entry>
   <% }) %>
