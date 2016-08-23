@@ -4,13 +4,32 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-08-23T13:25:44.705Z</updated>
+  <updated>2016-08-23T15:57:23.051Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://blog-next.reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>Web 微信与基于Node的微信机器人实现</title>
+      <link href="http://blog-next.reverland.org/2016/01/15/webchat-user-bot/"/>
+      <id>http://blog-next.reverland.org/2016/01/15/webchat-user-bot/</id>
+      <published>2016-02-14T16:00:00.000Z</published>
+      <updated>2016-02-14T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          web微信协议详解，介绍Javascript实现的微信机器人
+        
+      </summary>
+      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
+      
+        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
+      
+        <category term="protocol" scheme="http://blog-next.reverland.org/tags?tag=protocol"/>
+      
+    </entry>
   
     <entry>
       <title>我的2015</title>
@@ -81,25 +100,6 @@
       <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
       
         <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
-      
-    </entry>
-  
-    <entry>
-      <title>在Ubuntu Linux下使用北邮毕业论文LaTeX模板</title>
-      <link href="http://blog-next.reverland.org/2015/11/29/using-buptgraduatethesis-on-ubuntu/"/>
-      <id>http://blog-next.reverland.org/2015/11/29/using-buptgraduatethesis-on-ubuntu/</id>
-      <published>2015-12-28T16:00:00.000Z</published>
-      <updated>2015-12-28T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          LaTeX完成北邮研究生毕业论文指南
-        
-      </summary>
-      <category term="linux" scheme="http://blog-next.reverland.org/categories?category=linux"/>
-      
-        <category term="linux" scheme="http://blog-next.reverland.org/tags?tag=linux"/>
-      
-        <category term="tex" scheme="http://blog-next.reverland.org/tags?tag=tex"/>
       
     </entry>
   
