@@ -34,5 +34,4 @@ webpack(webpackConfig, function (err, stats) {
     chunks: false,
     chunkModules: false
   }) + '\n')
-  fs.writeFileSync('stats.json', JSON.stringify(stats.toJson()))
 })
