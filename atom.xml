@@ -4,13 +4,89 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-08-23T15:57:23.051Z</updated>
+  <updated>2016-08-24T15:29:41.324Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://blog-next.reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>神经网络101</title>
+      <link href="http://blog-next.reverland.org/2016/03/07/neural-network-101/"/>
+      <id>http://blog-next.reverland.org/2016/03/07/neural-network-101/</id>
+      <published>2016-04-06T16:00:00.000Z</published>
+      <updated>2016-04-06T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          意译自https://github.com/cazala/synaptic/wiki/Neural-Networks-101, 一个不怎么关乎公式的简单神经网络介绍。
+        
+      </summary>
+      <category term="machine learning" scheme="http://blog-next.reverland.org/categories?category=machine learning"/>
+      
+        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
+      
+        <category term="neural network" scheme="http://blog-next.reverland.org/tags?tag=neural network"/>
+      
+    </entry>
+  
+    <entry>
+      <title>竟不知做何言</title>
+      <link href="http://blog-next.reverland.org/2016/02/28/say-something/"/>
+      <id>http://blog-next.reverland.org/2016/02/28/say-something/</id>
+      <published>2016-03-27T16:00:00.000Z</published>
+      <updated>2016-03-27T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          说些什么
+        
+      </summary>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+    <entry>
+      <title>Evolving Game Once More</title>
+      <link href="http://blog-next.reverland.org/2016/02/26/evolving-game-once-more/"/>
+      <id>http://blog-next.reverland.org/2016/02/26/evolving-game-once-more/</id>
+      <published>2016-03-25T16:00:00.000Z</published>
+      <updated>2016-03-25T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          生物模拟游戏，终端动画、div动画、canvas动画、webgl动画全系列实现
+        
+      </summary>
+      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
+      
+        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
+      
+        <category term="webgl" scheme="http://blog-next.reverland.org/tags?tag=webgl"/>
+      
+        <category term="canvas" scheme="http://blog-next.reverland.org/tags?tag=canvas"/>
+      
+    </entry>
+  
+    <entry>
+      <title>记一次瞎逼折腾</title>
+      <link href="http://blog-next.reverland.org/2016/02/09/play/"/>
+      <id>http://blog-next.reverland.org/2016/02/09/play/</id>
+      <published>2016-03-08T16:00:00.000Z</published>
+      <updated>2016-03-08T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          纪念远去的dotcloud，ssh tunnel逆向
+        
+      </summary>
+      <category term="hack" scheme="http://blog-next.reverland.org/categories?category=hack"/>
+      
+        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
+      
+        <category term="hack" scheme="http://blog-next.reverland.org/tags?tag=hack"/>
+      
+    </entry>
   
     <entry>
       <title>Web 微信与基于Node的微信机器人实现</title>
@@ -28,78 +104,6 @@
         <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
       
         <category term="protocol" scheme="http://blog-next.reverland.org/tags?tag=protocol"/>
-      
-    </entry>
-  
-    <entry>
-      <title>我的2015</title>
-      <link href="http://blog-next.reverland.org/2016/01/02/2015-summary-and-prospect/"/>
-      <id>http://blog-next.reverland.org/2016/01/02/2015-summary-and-prospect/</id>
-      <published>2016-02-01T16:00:00.000Z</published>
-      <updated>2016-02-01T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          2015年总结和2016年展望
-        
-      </summary>
-      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
-      
-        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
-      
-    </entry>
-  
-    <entry>
-      <title>Stream in NodeJS</title>
-      <link href="http://blog-next.reverland.org/2015/12/20/stream-in-nodejs/"/>
-      <id>http://blog-next.reverland.org/2015/12/20/stream-in-nodejs/</id>
-      <published>2016-01-19T16:00:00.000Z</published>
-      <updated>2016-01-19T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          一篇有关NodeJS中流的概念的详细参考，历史、设计、应用等
-        
-      </summary>
-      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
-      
-        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
-      
-        <category term="stream" scheme="http://blog-next.reverland.org/tags?tag=stream"/>
-      
-        <category term="nodejs" scheme="http://blog-next.reverland.org/tags?tag=nodejs"/>
-      
-    </entry>
-  
-    <entry>
-      <title>王垠大萌神</title>
-      <link href="http://blog-next.reverland.org/2015/12/14/wangyin/"/>
-      <id>http://blog-next.reverland.org/2015/12/14/wangyin/</id>
-      <published>2016-01-13T16:00:00.000Z</published>
-      <updated>2016-01-13T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          萌
-        
-      </summary>
-      <category term="reviews" scheme="http://blog-next.reverland.org/categories?category=reviews"/>
-      
-        <category term="people" scheme="http://blog-next.reverland.org/tags?tag=people"/>
-      
-    </entry>
-  
-    <entry>
-      <title>自由？</title>
-      <link href="http://blog-next.reverland.org/2015/12/06/freedom/"/>
-      <id>http://blog-next.reverland.org/2015/12/06/freedom/</id>
-      <published>2016-01-05T16:00:00.000Z</published>
-      <updated>2016-01-05T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          一篇随笔
-        
-      </summary>
-      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
-      
-        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
       
     </entry>
   
