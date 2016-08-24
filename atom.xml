@@ -4,7 +4,7 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-08-24T15:29:41.324Z</updated>
+  <updated>2016-08-24T15:49:16.591Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
@@ -23,11 +23,11 @@
           意译自https://github.com/cazala/synaptic/wiki/Neural-Networks-101, 一个不怎么关乎公式的简单神经网络介绍。
         
       </summary>
-      <category term="machine learning" scheme="http://blog-next.reverland.org/categories?category=machine learning"/>
+      <category term="machine-learning" scheme="http://blog-next.reverland.org/categories?category=machine-learning"/>
       
         <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
       
-        <category term="neural network" scheme="http://blog-next.reverland.org/tags?tag=neural network"/>
+        <category term="neural-network" scheme="http://blog-next.reverland.org/tags?tag=neural-network"/>
       
     </entry>
   
