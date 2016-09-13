@@ -4,7 +4,7 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-08-27T00:20:03.502Z</updated>
+  <updated>2016-09-13T13:13:41.092Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
@@ -13,50 +13,55 @@
   <generator uri="http://blog-next.reverland.org">blog-next</generator>
   
     <entry>
-      <title>收割朋友圈照片</title>
-      <link href="http://blog-next.reverland.org/2016/03/08/harvest-mm-pics/"/>
-      <id>http://blog-next.reverland.org/2016/03/08/harvest-mm-pics/</id>
-      <published>2016-04-07T16:00:00.000Z</published>
-      <updated>2016-04-07T16:00:00.000Z</updated>
+      <title>The ES6 Features I Use These Days</title>
+      <link href="http://blog-next.reverland.org/2016/06/26/"/>
+      <id>http://blog-next.reverland.org/2016/06/26/</id>
+      <published>2016-07-25T16:00:00.000Z</published>
+      <updated>2016-07-25T16:00:00.000Z</updated>
       <summary type="html">
         
-          scapy sniff
+          <h2 id="es6">ES6</h2>
+<p>ES6标准，也称ES2015。在2015年6月正式批准，这是javascript语言标准从2009年首次大版本更新。</p>
+<p>这个版本带来了很多新东西，说是新东西，估计基本读者也都见过。比如python中常用的Destructuring assignment、模块导入...</p>
+
         
       </summary>
-      <category term="security" scheme="http://blog-next.reverland.org/categories?category=security"/>
-      
-        <category term="security" scheme="http://blog-next.reverland.org/tags?tag=security"/>
-      
-    </entry>
-  
-    <entry>
-      <title>神经网络101</title>
-      <link href="http://blog-next.reverland.org/2016/03/07/neural-network-101/"/>
-      <id>http://blog-next.reverland.org/2016/03/07/neural-network-101/</id>
-      <published>2016-04-06T16:00:00.000Z</published>
-      <updated>2016-04-06T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          意译自https://github.com/cazala/synaptic/wiki/Neural-Networks-101, 一个不怎么关乎公式的简单神经网络介绍。
-        
-      </summary>
-      <category term="machine-learning" scheme="http://blog-next.reverland.org/categories?category=machine-learning"/>
+      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
       
         <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
       
-        <category term="neural-network" scheme="http://blog-next.reverland.org/tags?tag=neural-network"/>
+        <category term="ES2015" scheme="http://blog-next.reverland.org/tags?tag=ES2015"/>
       
     </entry>
   
     <entry>
-      <title>竟不知做何言</title>
-      <link href="http://blog-next.reverland.org/2016/02/28/say-something/"/>
-      <id>http://blog-next.reverland.org/2016/02/28/say-something/</id>
-      <published>2016-03-27T16:00:00.000Z</published>
-      <updated>2016-03-27T16:00:00.000Z</updated>
+      <title>Goodbye</title>
+      <link href="http://blog-next.reverland.org/2016/06/26/goodbye/"/>
+      <id>http://blog-next.reverland.org/2016/06/26/goodbye/</id>
+      <published>2016-07-25T16:00:00.000Z</published>
+      <updated>2016-07-25T16:00:00.000Z</updated>
       <summary type="html">
         
-          说些什么
+          to ZN
+        
+      </summary>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
+      
+        <category term="ES2015" scheme="http://blog-next.reverland.org/tags?tag=ES2015"/>
+      
+    </entry>
+  
+    <entry>
+      <title>写一些有用的东西</title>
+      <link href="http://blog-next.reverland.org/2016/06/11/writing-something-useful/"/>
+      <id>http://blog-next.reverland.org/2016/06/11/writing-something-useful/</id>
+      <published>2016-07-10T16:00:00.000Z</published>
+      <updated>2016-07-10T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          最后还是写了些没卵用的东西
         
       </summary>
       <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
@@ -66,42 +71,51 @@
     </entry>
   
     <entry>
-      <title>Evolving Game Once More</title>
-      <link href="http://blog-next.reverland.org/2016/02/26/evolving-game-once-more/"/>
-      <id>http://blog-next.reverland.org/2016/02/26/evolving-game-once-more/</id>
-      <published>2016-03-25T16:00:00.000Z</published>
-      <updated>2016-03-25T16:00:00.000Z</updated>
+      <title>为自由而生</title>
+      <link href="http://blog-next.reverland.org/2016/05/25/for-freedom/"/>
+      <id>http://blog-next.reverland.org/2016/05/25/for-freedom/</id>
+      <published>2016-06-24T16:00:00.000Z</published>
+      <updated>2016-06-24T16:00:00.000Z</updated>
       <summary type="html">
         
-          生物模拟游戏，终端动画、div动画、canvas动画、webgl动画全系列实现
+          <p>大知若愚，大巧若拙。</p>
+<p>如果人生真有什么境界，</p>
+<p>凡历千万种种烟柳繁华，</p>
+<p>此世短暂冥顽过客</p>
+<p>愿光照此心</p>
+<p>于一瞬见永恒</p>
+<p>于柔弱见刚强</p>
+<p>于宁静见力量</p>
+<p>在绝望中寻信心</p>
+<p>历恐怖而求无畏</p>
+<p>缘木以求鱼，</p>
+<p>骛虚极，求静笃</p>
+<p>缘一切世界</p>
+<p>写十方万物</p>
+<p>可怜笔下千秋，只一人知...</p>
+
         
       </summary>
-      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
       
-        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
-      
-        <category term="webgl" scheme="http://blog-next.reverland.org/tags?tag=webgl"/>
-      
-        <category term="canvas" scheme="http://blog-next.reverland.org/tags?tag=canvas"/>
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
       
     </entry>
   
     <entry>
-      <title>记一次瞎逼折腾</title>
-      <link href="http://blog-next.reverland.org/2016/02/09/play/"/>
-      <id>http://blog-next.reverland.org/2016/02/09/play/</id>
-      <published>2016-03-08T16:00:00.000Z</published>
-      <updated>2016-03-08T16:00:00.000Z</updated>
+      <title>The Quieter You Become, the More You Are Able to Hear</title>
+      <link href="http://blog-next.reverland.org/2016/05/02/the-quieter-you-become-the-more-you-are-able-to-hear/"/>
+      <id>http://blog-next.reverland.org/2016/05/02/the-quieter-you-become-the-more-you-are-able-to-hear/</id>
+      <published>2016-06-01T16:00:00.000Z</published>
+      <updated>2016-06-01T16:00:00.000Z</updated>
       <summary type="html">
         
-          纪念远去的dotcloud，ssh tunnel逆向
+          满纸荒唐言
         
       </summary>
-      <category term="hack" scheme="http://blog-next.reverland.org/categories?category=hack"/>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
       
-        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
-      
-        <category term="hack" scheme="http://blog-next.reverland.org/tags?tag=hack"/>
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
       
     </entry>
   
