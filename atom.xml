@@ -4,35 +4,13 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog-next.reverland.org"/>
-  <updated>2016-09-13T13:26:12.222Z</updated>
+  <updated>2016-09-13T13:30:31.733Z</updated>
   <id>http://blog-next.reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://blog-next.reverland.org">blog-next</generator>
-  
-    <entry>
-      <title>The ES6 Features I Use These Days</title>
-      <link href="http://blog-next.reverland.org/2016/06/26/"/>
-      <id>http://blog-next.reverland.org/2016/06/26/</id>
-      <published>2016-07-25T16:00:00.000Z</published>
-      <updated>2016-07-25T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          <h2 id="es6">ES6</h2>
-<p>ES6标准，也称ES2015。在2015年6月正式批准，这是javascript语言标准从2009年首次大版本更新。</p>
-<p>这个版本带来了很多新东西，说是新东西，估计基本读者也都见过。比如python中常用的Destructuring assignment、模块导入...</p>
-
-        
-      </summary>
-      <category term="javascript" scheme="http://blog-next.reverland.org/categories?category=javascript"/>
-      
-        <category term="javascript" scheme="http://blog-next.reverland.org/tags?tag=javascript"/>
-      
-        <category term="ES2015" scheme="http://blog-next.reverland.org/tags?tag=ES2015"/>
-      
-    </entry>
   
     <entry>
       <title>Goodbye</title>
@@ -94,6 +72,23 @@
 <p>写十方万物</p>
 <p>可怜笔下千秋，只一人知...</p>
 
+        
+      </summary>
+      <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://blog-next.reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+    <entry>
+      <title>The Quieter You Become, the More You Are Able to Hear</title>
+      <link href="http://blog-next.reverland.org/2016/05/02/the-quieter-you-become-the-more-you-are-able-to-hear/"/>
+      <id>http://blog-next.reverland.org/2016/05/02/the-quieter-you-become-the-more-you-are-able-to-hear/</id>
+      <published>2016-06-01T16:00:00.000Z</published>
+      <updated>2016-06-01T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          满纸荒唐言
         
       </summary>
       <category term="life" scheme="http://blog-next.reverland.org/categories?category=life"/>
