@@ -1,0 +1,1 @@
+webpackJsonp([97,192],{524:function(n,t){n.exports={rawContent:"\n\n把电影看完了，还真不错，画面和动感、音乐都大赞。\n\n晚上又把ova 浪客剑心追忆篇看了遍，日系动漫真的做的厉害啊。画面大多都是静止的，但配上优秀得声优、优美得旋律、古典得画面，太合乎东方美学了。\n\n算是追忆下明治维新得历史吧。\n\n关于工作，我想吐槽下。。。又无力吐槽，祝愿所有人都一切顺利。\n\n好水。。。\n",metaData:{layout:"post",title:"浪客剑心",excerpt:"我要吐槽么。。。",category:"Life",tags:["Life"],disqus:!0}}}});
