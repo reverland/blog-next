@@ -32,12 +32,12 @@ function generateFeedData(sitemaps) {
       var url = ''
       try {
         metaData = yaml.load(yfm)
-        _summary = match[3].slice(0, 140) + '...'
+        var category = metaData.category
         var _title = path.basename(post, '.md').slice(11)
         var year = path.basename(post, '.md').slice(0, 4)
         var month = path.basename(post, '.md').slice(5, 7)
         var day = path.basename(post, '.md').slice(8, 10)
-        url = year + '/' +  month + '/' + day + (_title ? ('/' + _title + '/') : '/')
+        url = '/' + category + '/' + year + '/' +  month + '/' + day + (_title ? ('/' + _title + '/') : '/')
       } catch (e) {
         console.log(post)
         console.log(e)

@@ -72,6 +72,11 @@ var webpackConfig = merge(baseWebpackConfig, {
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
     }),
+    new HtmlWebpackPlugin({
+      filename: 'googleab9133f89e2f7362.html',
+      template: 'googleab9133f89e2f7362.html',
+      inject: false,
+    }),
     new FeedPlugin(),
     new HtmlWebpackPlugin({
       filename: 'atom.xml',
