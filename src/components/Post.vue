@@ -18,15 +18,28 @@
 <script>
 import marked from 'marked'
 
+let renderer = new marked.Renderer()
+
+renderer.heading = function (text, level) {
+  return `<h${level} class="ui dividing header">${text}</h${level}>`
+}
+
+renderer.image = function (href, title, text) {
+  return `<img class="ui image" src="${href}" alt="${text}" >`
+}
+
 marked.setOptions({
-  renderer: new marked.Renderer(),
+  renderer: renderer,
   gfm: true,
   tables: true,
   breaks: false,
   pedantic: false,
   sanitize: false,
   smartLists: true,
-  smartypants: false
+  smartypants: false,
+  highlight: function (code, lang) {
+    return require('highlight.js').highlightAuto(code, [lang]).value
+  }
 })
 
 export default {

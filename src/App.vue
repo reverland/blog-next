@@ -64,4 +64,5 @@ export default {
     display: block;
   }
 }
+@import '~highlight.js/styles/github-gist.css';
 </style>

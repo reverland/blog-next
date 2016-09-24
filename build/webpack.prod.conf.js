@@ -7,6 +7,7 @@ var baseWebpackConfig = require('./webpack.base.conf')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var FeedPlugin = require('../plugin/feed-plugin.js')
+var SitemapPlugin = require('../plugin/sitemap-plugin.js')
 var env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : config.build.env
@@ -75,6 +76,13 @@ var webpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'atom.xml',
       template: 'atom.ejs',
+      inject: false,
+      xhtml: true
+    }),
+    new SitemapPlugin(),
+    new HtmlWebpackPlugin({
+      filename: 'sitemap.xml',
+      template: 'sitemap.ejs',
       inject: false,
       xhtml: true
     }),
