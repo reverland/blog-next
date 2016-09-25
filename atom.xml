@@ -4,7 +4,7 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://reverland.org"/>
-  <updated>2016-09-25T04:19:43.003Z</updated>
+  <updated>2016-09-25T05:19:50.345Z</updated>
   <id>http://reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
@@ -14,8 +14,8 @@
   
     <entry>
       <title>全职半年记</title>
-      <link href="http://reverland.org/2016/09/13/half-year-full-time-front-end-developer/"/>
-      <id>http://reverland.org/2016/09/13/half-year-full-time-front-end-developer/</id>
+      <link href="http://reverland.org/life/2016/09/13/half-year-full-time-front-end-developer/"/>
+      <id>http://reverland.org/life/2016/09/13/half-year-full-time-front-end-developer/</id>
       <published>2016-10-12T16:00:00.000Z</published>
       <updated>2016-10-12T16:00:00.000Z</updated>
       <summary type="html">
@@ -31,8 +31,8 @@
   
     <entry>
       <title>Exploring Webpack</title>
-      <link href="http://reverland.org/2016/07/24/exploring-webpack/"/>
-      <id>http://reverland.org/2016/07/24/exploring-webpack/</id>
+      <link href="http://reverland.org/javascript/2016/07/24/exploring-webpack/"/>
+      <id>http://reverland.org/javascript/2016/07/24/exploring-webpack/</id>
       <published>2016-08-23T16:00:00.000Z</published>
       <updated>2016-08-23T16:00:00.000Z</updated>
       <summary type="html">
@@ -50,8 +50,8 @@
   
     <entry>
       <title>Goodbye</title>
-      <link href="http://reverland.org/2016/06/26/goodbye/"/>
-      <id>http://reverland.org/2016/06/26/goodbye/</id>
+      <link href="http://reverland.org/life/2016/06/26/goodbye/"/>
+      <id>http://reverland.org/life/2016/06/26/goodbye/</id>
       <published>2016-07-25T16:00:00.000Z</published>
       <updated>2016-07-25T16:00:00.000Z</updated>
       <summary type="html">
@@ -69,8 +69,8 @@
   
     <entry>
       <title>写一些有用的东西</title>
-      <link href="http://reverland.org/2016/06/11/writing-something-useful/"/>
-      <id>http://reverland.org/2016/06/11/writing-something-useful/</id>
+      <link href="http://reverland.org/life/2016/06/11/writing-something-useful/"/>
+      <id>http://reverland.org/life/2016/06/11/writing-something-useful/</id>
       <published>2016-07-10T16:00:00.000Z</published>
       <updated>2016-07-10T16:00:00.000Z</updated>
       <summary type="html">
@@ -86,8 +86,8 @@
   
     <entry>
       <title>为自由而生</title>
-      <link href="http://reverland.org/2016/05/25/for-freedom/"/>
-      <id>http://reverland.org/2016/05/25/for-freedom/</id>
+      <link href="http://reverland.org/life/2016/05/25/for-freedom/"/>
+      <id>http://reverland.org/life/2016/05/25/for-freedom/</id>
       <published>2016-06-24T16:00:00.000Z</published>
       <updated>2016-06-24T16:00:00.000Z</updated>
       <summary type="html">
