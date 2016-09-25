@@ -37,13 +37,14 @@ function generateFeedData(feeds, n) {
         var year = path.basename(post, '.md').slice(0, 4)
         var month = path.basename(post, '.md').slice(5, 7)
         var day = path.basename(post, '.md').slice(8, 10)
+        var category = metaData.category
         feed.title = metaData.title
-        feed.path = year + '/' +  month + '/' + day + (_title ? ('/' + _title + '/') : '/')
+        feed.path = '/' + category + '/' + year + '/' +  month + '/' + day + (_title ? ('/' + _title + '/') : '/')
         feed.date = new Date(year, month, day)
         feed.updated = new Date(year, month, day)
         feed.excerpt = metaData.excerpt
         feed.content = marked(_summary)
-        feed.category = metaData.category
+        feed.category = category
         feed.tags = metaData.tags
       } catch (e) {
         console.log(post)
