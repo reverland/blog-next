@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>reverland的行知阁</title>
+  <subtitle>柔以自坚，晦以自明</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://reverland.org"/>
+  <updated>2016-10-14T15:20:06.345Z</updated>
+  <id>http://reverland.org</id>
+  <author>
+    <name>Liu Yuyang</name>
+    <email>sa@linuxer.me</email>
+  </author>
+  <generator uri="http://reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>全职半年记</title>
+      <link href="http://reverland.org/life/2016/09/13/half-year-full-time-front-end-developer/"/>
+      <id>http://reverland.org/life/2016/09/13/half-year-full-time-front-end-developer/</id>
+      <published>2016-10-12T16:00:00.000Z</published>
+      <updated>2016-10-12T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          Half Year in Chaitin, As a Full-time Web Front End Developer
+        
+      </summary>
+      <category term="life" scheme="http://reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+    <entry>
+      <title>Exploring Webpack</title>
+      <link href="http://reverland.org/javascript/2016/07/24/exploring-webpack/"/>
+      <id>http://reverland.org/javascript/2016/07/24/exploring-webpack/</id>
+      <published>2016-08-23T16:00:00.000Z</published>
+      <updated>2016-08-23T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          webpack internals - from loaders to plugins
+        
+      </summary>
+      <category term="javascript" scheme="http://reverland.org/categories?category=javascript"/>
+      
+        <category term="webpack" scheme="http://reverland.org/tags?tag=webpack"/>
+      
+        <category term="javascript" scheme="http://reverland.org/tags?tag=javascript"/>
+      
+    </entry>
+  
+    <entry>
+      <title>Goodbye</title>
+      <link href="http://reverland.org/life/2016/06/26/goodbye/"/>
+      <id>http://reverland.org/life/2016/06/26/goodbye/</id>
+      <published>2016-07-25T16:00:00.000Z</published>
+      <updated>2016-07-25T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          to ZN
+        
+      </summary>
+      <category term="life" scheme="http://reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+        <category term="ES2015" scheme="http://reverland.org/tags?tag=ES2015"/>
+      
+    </entry>
+  
+    <entry>
+      <title>写一些有用的东西</title>
+      <link href="http://reverland.org/life/2016/06/11/writing-something-useful/"/>
+      <id>http://reverland.org/life/2016/06/11/writing-something-useful/</id>
+      <published>2016-07-10T16:00:00.000Z</published>
+      <updated>2016-07-10T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          最后还是写了些没卵用的东西
+        
+      </summary>
+      <category term="life" scheme="http://reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+    <entry>
+      <title>为自由而生</title>
+      <link href="http://reverland.org/life/2016/05/25/for-freedom/"/>
+      <id>http://reverland.org/life/2016/05/25/for-freedom/</id>
+      <published>2016-06-24T16:00:00.000Z</published>
+      <updated>2016-06-24T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          <p>大知若愚，大巧若拙。</p>
+<p>如果人生真有什么境界，</p>
+<p>凡历千万种种烟柳繁华，</p>
+<p>此世短暂冥顽过客</p>
+<p>愿光照此心</p>
+<p>于一瞬见永恒</p>
+<p>于柔弱见刚强</p>
+<p>于宁静见力量</p>
+<p>在绝望中寻信心</p>
+<p>历恐怖而求无畏</p>
+<p>缘木以求鱼，</p>
+<p>骛虚极，求静笃</p>
+<p>缘一切世界</p>
+<p>写十方万物</p>
+<p>可怜笔下千秋，只一人知...</p>
+
+        
+      </summary>
+      <category term="life" scheme="http://reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+</feed>
