@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <% compilation.sitemaps.forEach(function(url) { %>
   <url>
-    <loc><%= 'http://reverland.org' + url %></loc>
+    <loc><%= webpackConfig.blog.scheme + '://' + webpackConfig.blog.host + '/?p=' + url %></loc>
   </url>
 <% }) %>
 </urlset>

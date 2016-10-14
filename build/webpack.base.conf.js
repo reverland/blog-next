@@ -1,5 +1,6 @@
 var path = require('path')
 var config = require('../config')
+var blogConfig = require('../config/blog-config')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
 var PostPlugin = require('../plugin/post-plugin.js')
@@ -89,5 +90,6 @@ module.exports = {
   },
   plugins: [
     new PostPlugin()
-  ]
+  ],
+  blog: blogConfig
 }
