@@ -8,6 +8,9 @@
     <div class="ui segment">
       {{{ content }}}
     </div>
+    <div class="ui segment">
+      <disqus :shortname="shortname"></disqus>
+    </div>
     </template>
     <div v-if="$loadingRouteData" class="load ui segment">
       <div class="ui active loader"></div>
@@ -17,6 +20,7 @@
 
 <script>
 import marked from 'marked'
+import Disqus from 'vue-disqus'
 
 let renderer = new marked.Renderer()
 
@@ -43,13 +47,17 @@ marked.setOptions({
 })
 
 export default {
+  components: {
+    Disqus
+  },
   data () {
     return {
       content: '<h1>loading...</h1>',
       year: '',
       month: '',
       day: '',
-      title: ''
+      title: '',
+      shortname: process.env.SHORT_NAME
     }
   },
   route: {

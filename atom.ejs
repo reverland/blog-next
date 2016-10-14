@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Reverland的行知阁</title>
-  <subtitle>柔以自坚，晦以自明</subtitle>
+  <title><%= webpackConfig.blog.title %></title>
+  <subtitle><%= webpackConfig.blog.subTitle %></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="<%= webpackConfig.blog.scheme + '://' + webpackConfig.blog.host %>"/>
   <updated><%= new Date().toISOString() %></updated>
@@ -26,7 +26,7 @@
         <% } else if (post.content) { %>
           <%= post.content %>
         <% } else { %>
-          无摘要
+          No summary
         <% } %>
       </summary>
       <category term="<%= post.category %>" scheme="<%= webpackConfig.blog.scheme + '://' + webpackConfig.blog.host + '/categories?category=' + post.category %>"/>
