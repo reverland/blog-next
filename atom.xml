@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Reverland的行知阁</title>
+  <title>reverland的行知阁</title>
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://reverland.org"/>
-  <updated>2016-11-06T16:31:56.849Z</updated>
+  <updated>2016-11-07T13:45:45.781Z</updated>
   <id>http://reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
