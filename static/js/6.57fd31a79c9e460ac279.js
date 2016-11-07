@@ -1,1 +1,0 @@
-webpackJsonp([6,193],{617:function(n,t){n.exports={rawContent:"\n大知若愚，大巧若拙。\n\n如果人生真有什么境界，\n\n凡历千万种种烟柳繁华，\n\n此世短暂冥顽过客\n\n愿光照此心\n\n于一瞬见永恒\n\n于柔弱见刚强\n\n于宁静见力量\n\n在绝望中寻信心\n\n历恐怖而求无畏\n\n缘木以求鱼，\n\n骛虚极，求静笃\n\n缘一切世界\n\n写十方万物\n\n可怜笔下千秋，只一人知之\n\n谁案前风起，也心绪万千\n",metaData:{layout:"post",title:"为自由而生",excerpt:"",category:"life",tags:["life"],disqus:!0}}}});
