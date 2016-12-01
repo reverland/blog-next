@@ -4,13 +4,30 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://reverland.org"/>
-  <updated>2016-11-07T14:06:52.018Z</updated>
+  <updated>2016-12-01T15:58:30.905Z</updated>
   <id>http://reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>十二月初杂谈</title>
+      <link href="http://reverland.org/life/2016/12/01/notes/"/>
+      <id>http://reverland.org/life/2016/12/01/notes/</id>
+      <published>2016-12-31T16:00:00.000Z</published>
+      <updated>2016-12-31T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          鬼话连篇，人格分裂
+        
+      </summary>
+      <category term="life" scheme="http://reverland.org/categories?category=life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
   
     <entry>
       <title>翼をください</title>
@@ -81,23 +98,6 @@
         <category term="life" scheme="http://reverland.org/tags?tag=life"/>
       
         <category term="ES2015" scheme="http://reverland.org/tags?tag=ES2015"/>
-      
-    </entry>
-  
-    <entry>
-      <title>写一些有用的东西</title>
-      <link href="http://reverland.org/life/2016/06/11/writing-something-useful/"/>
-      <id>http://reverland.org/life/2016/06/11/writing-something-useful/</id>
-      <published>2016-07-10T16:00:00.000Z</published>
-      <updated>2016-07-10T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          最后还是写了些没卵用的东西
-        
-      </summary>
-      <category term="life" scheme="http://reverland.org/categories?category=life"/>
-      
-        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
       
     </entry>
   
