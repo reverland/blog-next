@@ -1,7 +1,7 @@
 <template>
   <div class="posts ui raised segments">
     <template v-if="!$loadingRouteData">
-    <div class="ui ribbon label">
+    <div class="title ui ribbon label">
       <h1>{{ title }}</h1>
       <div class="small"><i class="history icon"></i>{{year}}-{{month}}-{{day}}</div>
     </div>
@@ -77,6 +77,12 @@ export default {
         })
       })
     }
+  },
+  watch: {
+    title (nVal, oVal) {
+      let title = document.getElementsByTagName('title')[0]
+      title.textContent = nVal
+    }
   }
 }
 </script>
@@ -85,5 +91,11 @@ export default {
 <style scoped>
 .load.segment {
   padding: 3em 0;
+}
+
+@media (max-width: 600px) {
+  .title {
+    min-width: calc(100% + 3.2em) !important;
+  }
 }
 </style>
