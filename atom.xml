@@ -4,13 +4,66 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://reverland.org"/>
-  <updated>2017-06-17T15:02:34.744Z</updated>
+  <updated>2019-06-24T15:34:38.731Z</updated>
   <id>http://reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>I'm back again</title>
+      <link href="http://reverland.org/Life/2019/06/24/i-am-back-again/"/>
+      <id>http://reverland.org/Life/2019/06/24/i-am-back-again/</id>
+      <published>2019-07-23T16:00:00.000Z</published>
+      <updated>2019-07-23T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          After nearly three years without posting here, I'm back again.
+        
+      </summary>
+      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
+  
+    <entry>
+      <title>矮人要塞冒险故事：历法</title>
+      <link href="http://reverland.org/game/2018/11/11/dwarf-fortress-story-calendar/"/>
+      <id>http://reverland.org/game/2018/11/11/dwarf-fortress-story-calendar/</id>
+      <published>2018-12-10T16:00:00.000Z</published>
+      <updated>2018-12-10T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          关于矮人要塞中的历法
+        
+      </summary>
+      <category term="game" scheme="http://reverland.org/categories?category=game"/>
+      
+        <category term="dwarf-fortress" scheme="http://reverland.org/tags?tag=dwarf-fortress"/>
+      
+        <category term="game" scheme="http://reverland.org/tags?tag=game"/>
+      
+    </entry>
+  
+    <entry>
+      <title>2018</title>
+      <link href="http://reverland.org/Life/2018/01/06/2018/"/>
+      <id>http://reverland.org/Life/2018/01/06/2018/</id>
+      <published>2018-02-05T16:00:00.000Z</published>
+      <updated>2018-02-05T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          2018的年终总结，薄得像一片纸，厚重的如整个宇宙
+        
+      </summary>
+      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
+      
+        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
+      
+    </entry>
   
     <entry>
       <title>无所住而生其心</title>
@@ -43,57 +96,6 @@
       <category term="linux" scheme="http://reverland.org/categories?category=linux"/>
       
         <category term="linux" scheme="http://reverland.org/tags?tag=linux"/>
-      
-    </entry>
-  
-    <entry>
-      <title>纪念无以纪念的</title>
-      <link href="http://reverland.org/Life/2017/05/26/memorize-bbs-byr-cn/"/>
-      <id>http://reverland.org/Life/2017/05/26/memorize-bbs-byr-cn/</id>
-      <published>2017-06-25T16:00:00.000Z</published>
-      <updated>2017-06-25T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          几年逝去的北邮人
-        
-      </summary>
-      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
-      
-        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
-      
-    </entry>
-  
-    <entry>
-      <title>2016回顾与2017展望</title>
-      <link href="http://reverland.org/Life/2017/01/08/spring-and-chaos/"/>
-      <id>http://reverland.org/Life/2017/01/08/spring-and-chaos/</id>
-      <published>2017-02-07T16:00:00.000Z</published>
-      <updated>2017-02-07T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          都有些什么记忆呢
-        
-      </summary>
-      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
-      
-        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
-      
-    </entry>
-  
-    <entry>
-      <title>翼をください</title>
-      <link href="http://reverland.org/Life/2016/11/02/interview/"/>
-      <id>http://reverland.org/Life/2016/11/02/interview/</id>
-      <published>2016-12-01T16:00:00.000Z</published>
-      <updated>2016-12-01T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          翼をください
-        
-      </summary>
-      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
-      
-        <category term="life" scheme="http://reverland.org/tags?tag=life"/>
       
     </entry>
   
