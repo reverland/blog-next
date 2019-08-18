@@ -4,13 +4,30 @@
   <subtitle>柔以自坚，晦以自明</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://reverland.org"/>
-  <updated>2019-06-24T15:34:38.731Z</updated>
+  <updated>2019-08-18T08:49:41.944Z</updated>
   <id>http://reverland.org</id>
   <author>
     <name>Liu Yuyang</name>
     <email>sa@linuxer.me</email>
   </author>
   <generator uri="http://reverland.org">blog-next</generator>
+  
+    <entry>
+      <title>黑·白</title>
+      <link href="http://reverland.org/Life/2019/08/11/eink-experience-in-two-weeks/"/>
+      <id>http://reverland.org/Life/2019/08/11/eink-experience-in-two-weeks/</id>
+      <published>2019-09-10T16:00:00.000Z</published>
+      <updated>2019-09-10T16:00:00.000Z</updated>
+      <summary type="html">
+        
+          无地可种，有家难归。放下屏幕，立地成人。
+        
+      </summary>
+      <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
+      
+        <category term="eink" scheme="http://reverland.org/tags?tag=eink"/>
+      
+    </entry>
   
     <entry>
       <title>I'm back again</title>
@@ -79,23 +96,6 @@
       <category term="Life" scheme="http://reverland.org/categories?category=Life"/>
       
         <category term="life" scheme="http://reverland.org/tags?tag=life"/>
-      
-    </entry>
-  
-    <entry>
-      <title>给MBP用户的Ubuntu GNOME 17.04 安装配置指南</title>
-      <link href="http://reverland.org/linux/2017/06/14/ubuntu-gnome-guide-for-mbp-users/"/>
-      <id>http://reverland.org/linux/2017/06/14/ubuntu-gnome-guide-for-mbp-users/</id>
-      <published>2017-07-13T16:00:00.000Z</published>
-      <updated>2017-07-13T16:00:00.000Z</updated>
-      <summary type="html">
-        
-          GNOME 大法好
-        
-      </summary>
-      <category term="linux" scheme="http://reverland.org/categories?category=linux"/>
-      
-        <category term="linux" scheme="http://reverland.org/tags?tag=linux"/>
       
     </entry>
   
