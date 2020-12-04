@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
-    "highlight.js": "^9.6.0",
+    "highlight.js": "^10.4.1",
     "marked": "^0.3.6",
     "vue": "^1.0.21",
     "vue-disqus": "^1.0.2",
